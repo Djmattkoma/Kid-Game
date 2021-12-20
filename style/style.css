@@ -1,0 +1,40 @@
+#gamezone{
+    display: grid;
+
+}
+
+#wintable{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.ponts{
+    padding: 50px;
+    border-radius: 20px;
+    border-style: solid;
+    border: black;
+    border-width: 20px;
+    font-size: 25pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#playerponts{
+    background-color: red;
+    color: whitesmoke;
+
+}
+
+#aiponts{
+    background-color: blue;
+    color: rgb(0, 255, 0);
+}
+
+
+div{
+    padding: 5px;
+    background-color: cornflowerblue;
+    border-radius:  50px;
+    margin: 50px;
+}
